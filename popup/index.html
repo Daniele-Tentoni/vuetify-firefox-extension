@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link src="./styles/vuetify.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- You must add content to this div to use Vue.js -->
+    <div id="app">
+      <v-app>
+        <v-main>
+          <v-btn @click="message = 'Hello world'">Hello world</v-btn>
+          <v-card>
+            <v-card-title>{{ message }}</v-card-title>
+          </v-card>
+        </v-main>
+      </v-app>
+    </div>
+    <script src="./libs/vue.global.js"></script>
+    <script src="./libs/vuetify.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
